@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="881b2f45-e2a7-43f8-b0e6-5ab3d07e7a96" name="qm-static" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="K:\Development\qm-info-site\simply-static" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

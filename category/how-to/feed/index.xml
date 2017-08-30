@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>How To &#8211; QuantiModo</title>
+	<atom:link href="/category/how-to/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Better living through data.</description>
+	<lastBuildDate>Mon, 28 Aug 2017 02:00:28 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.8.1</generator>
+
+<image>
+	<url>/wp-content/uploads/2017/02/QM-LOGO-ICON-144-flat-arrow-butt-100x100.png</url>
+	<title>How To &#8211; QuantiModo</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">123604168</site>	<item>
+		<title>9 Barriers to the Eradication of Mental Illness and How We Can Overcome Them</title>
+		<link>/eradicate-mental-illness/</link>
+		<comments>/eradicate-mental-illness/#respond</comments>
+		<pubDate>Wed, 28 May 2014 13:55:03 +0000</pubDate>
+		<dc:creator><![CDATA[mikepsinn]]></dc:creator>
+				<category><![CDATA[How To]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Why]]></category>
+
+		<guid isPermaLink="false">https://quantimodo.com/?p=1985</guid>
+		<description><![CDATA[<p>These are the reasons why mental illness continues to ravage our society despite the miraculous rate of technical innovation in almost every other field of human endeavor.</p>
+<p>The post <a rel="nofollow" href="/eradicate-mental-illness/">9 Barriers to the Eradication of Mental Illness and How We Can Overcome Them</a> appeared first on <a rel="nofollow" href="/">QuantiModo</a>.</p>
+]]></description>
+		<wfw:commentRss>/eradicate-mental-illness/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1985</post-id>	</item>
+		<item>
+		<title>How to Perfect Your Life</title>
+		<link>/perfect/</link>
+		<comments>/perfect/#respond</comments>
+		<pubDate>Sat, 19 Oct 2013 04:04:56 +0000</pubDate>
+		<dc:creator><![CDATA[mikepsinn]]></dc:creator>
+				<category><![CDATA[How To]]></category>
+
+		<guid isPermaLink="false">https://dev-wplms.quantimo.do/?p=2552</guid>
+		<description><![CDATA[<p>You deserve to be happy. Some people have won the genetic lottery and are naturally happy. However, for some of us, happiness requires a lot of work. I am a member of the latter group. These are the steps that I had to take to attain happiness. Step 1: Diagnosis What&#8217;s My M3? provides a three-minute test for depression, anxiety, [&#8230;]</p>
+<p>The post <a rel="nofollow" href="/perfect/">How to Perfect Your Life</a> appeared first on <a rel="nofollow" href="/">QuantiModo</a>.</p>
+]]></description>
+		<wfw:commentRss>/perfect/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">2552</post-id>	</item>
+	</channel>
+</rss>
