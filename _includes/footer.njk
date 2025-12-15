@@ -46,7 +46,14 @@
 </div><!-- #footer -->
 	
 			<a class="kleo-go-top" href="#"><i class="icon-up-open-big"></i></a>
-	<div class="kleo-quick-contact-wrapper"><a class="kleo-quick-contact-link" href="#"><i class="icon-mail-alt"></i></a><div id="kleo-quick-contact"><h4 class="kleo-qc-title">CONTACT US</h4><p>We're not around right now. But you can send us an email and we'll get back to you, asap.</p><form class="kleo-contact-form" action="#" method="post" novalidate><input type="text" placeholder="Your Name" required id="contact_name" name="contact_name" class="form-control" value="" tabindex="276" /><input type="email" required placeholder="Your Email" id="contact_email" name="contact_email" class="form-control" value="" tabindex="277"  /><textarea placeholder="Type your message..." required id="contact_content" name="contact_content" class="form-control" tabindex="278"></textarea><input type="hidden" name="action" value="kleo_sendmail"><button tabindex="279" class="btn btn-default pull-right" type="submit">Send</button><div class="kleo-contact-loading">Sending <i class="icon-spinner icon-spin icon-large"></i></div><div class="kleo-contact-success"> </div></form><div class="bottom-arrow"></div></div></div><!--end kleo-quick-contact-wrapper-->		
+	<div class="kleo-quick-contact-wrapper">
+		<a class="kleo-quick-contact-link"
+		   href="mailto:development@quantimo.do?subject=QuantiModo%20Development%20Inquiry"
+		   onclick="window.location.href=this.href; return false;"
+		   title="Contact Me">
+			<i class="icon-mail-alt"></i>
+		</a>
+	</div><!--end kleo-quick-contact-wrapper-->		
 		<!-- SOCKET SECTION
 		================================================ -->
 
@@ -76,68 +83,9 @@
 
     
 	<!-- Analytics -->
-	
+
 		<div style="display:none">
 	</div>
-<!-- Modal Login form -->
-<div id="kleo-login-modal" class="kleo-form-modal main-color mfp-hide">
-    <div class="row">
-        <div class="col-sm-12 text-center">
-
-			
-            <div class="kleo-pop-title-wrap main-color">
-                <h3 class="kleo-pop-title">Log in with your credentials</h3>
-
-				            </div>
-
-
-			            <form action="/wp-login.php" id="login_form" name="login_form" method="post"
-                  class="kleo-form-signin">
-				<input type="hidden" id="security" name="security" value="eb6171f199" /><input type="hidden" name="_wp_http_referer" value="/" />                <input type="text" id="username" autofocus required name="log" class="form-control" value=""
-                       placeholder="Username">
-                <input type="password" id="password" required value="" name="pwd" class="form-control"
-                       placeholder="Password">
-                <div id="kleo-login-result"></div>
-                <button class="btn btn-lg btn-default btn-block"
-                        type="submit">Sign in</button>
-                <label class="checkbox pull-left">
-                    <input id="rememberme" name="rememberme" type="checkbox"
-                           value="forever"> Remember me                </label>
-                <a href="#kleo-lostpass-modal"
-                   class="kleo-show-lostpass kleo-other-action pull-right">Lost your password?</a>
-                <span class="clearfix"></span>
-
-				
-            </form>
-
-        </div>
-    </div>
-</div><!-- END Modal Login form -->
-
-
-<!-- Modal Lost Password form -->
-<div id="kleo-lostpass-modal" class="kleo-form-modal main-color mfp-hide">
-    <div class="row">
-        <div class="col-sm-12 text-center">
-            <div class="kleo-pop-title-wrap alternate-color">
-                <h3 class="kleo-pop-title">Forgot your details?</h3>
-            </div>
-
-			
-            <form id="forgot_form" name="forgot_form" action="" method="post" class="kleo-form-signin">
-				<input type="hidden" id="security" name="security" value="eb6171f199" /><input type="hidden" name="_wp_http_referer" value="/" />                <input type="text" id="forgot-email" autofocus required name="user_login" class="form-control"
-                       placeholder="Username or Email">
-                <div id="kleo-lost-result"></div>
-                <button class="btn btn-lg btn-default btn-block"
-                        type="submit">Reset Password</button>
-                <a href="#kleo-login-modal"
-                   class="kleo-show-login kleo-other-action pull-right">I remember my details</a>
-                <span class="clearfix"></span>
-            </form>
-
-        </div>
-    </div>
-</div><!-- END Modal Lost Password form -->
 
 
 <link rel='stylesheet' id='vc_google_fonts_roboto_condensed300300italicregularitalic700700italic-css'  href='//fonts.googleapis.com/css?family=Roboto+Condensed%3A300%2C300italic%2Cregular%2Citalic%2C700%2C700italic&#038;ver=4.8.1' type='text/css' media='all' />
