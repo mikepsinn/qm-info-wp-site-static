@@ -1,0 +1,13 @@
+# QuantiModo - Open Source Health Data Research Platform
+# Not affiliated with any cryptocurrency projects
+
+User-agent: *
+Allow: /
+
+# Important pages
+Allow: /studies/
+Allow: /research-platform/
+Allow: /developer-platform/
+
+# Sitemap
+Sitemap: https://quantimo.do/sitemap.xml
