@@ -1,28 +1,22 @@
 module.exports = function(eleventyConfig) {
 
-  // Copy static assets to output
+  // Copy entire directories (more efficient than glob patterns)
   eleventyConfig.addPassthroughCopy("wp-content");
   eleventyConfig.addPassthroughCopy("wp-includes");
-  eleventyConfig.addPassthroughCopy("static");
-  eleventyConfig.addPassthroughCopy("imgs");
-  eleventyConfig.addPassthroughCopy("css");
-  eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("sitemap.xml");
-  eleventyConfig.addPassthroughCopy("**/*.png");
-  eleventyConfig.addPassthroughCopy("**/*.jpg");
-  eleventyConfig.addPassthroughCopy("**/*.gif");
-  eleventyConfig.addPassthroughCopy("**/*.ico");
 
   // Ignore files we don't want to process
   eleventyConfig.ignores.add("node_modules/**");
   eleventyConfig.ignores.add("perfect-your-life/**");
   eleventyConfig.ignores.add("update-app-urls.ps1");
   eleventyConfig.ignores.add("update-app-urls.sh");
+  eleventyConfig.ignores.add("migrate-to-11ty.js");
   eleventyConfig.ignores.add("package.json");
   eleventyConfig.ignores.add("package-lock.json");
   eleventyConfig.ignores.add(".git/**");
+  eleventyConfig.ignores.add("README.md");
 
   return {
     dir: {
@@ -33,6 +27,9 @@ module.exports = function(eleventyConfig) {
     },
     templateFormats: ["html", "njk", "md"],
     htmlTemplateEngine: "njk",
-    markdownTemplateEngine: "njk"
+    markdownTemplateEngine: "njk",
+    serverOptions: {
+      port: 8081             // Use port 8081 instead of default 8080
+    }
   };
 };
