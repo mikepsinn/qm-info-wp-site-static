@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
-    "serve": "eleventy --serve --port=3000",
-    "start": "eleventy --serve --port=3000"
+    "serve": "eleventy --serve"
   },
   "keywords": [],
   "author": "",

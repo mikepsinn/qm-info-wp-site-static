@@ -34,7 +34,7 @@ module.exports = function(eleventyConfig) {
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
     serverOptions: {
-      port: 8081             // Use port 8081 instead of default 8080
+      port: 3000             // Use port 8081 instead of default 8080
     }
   };
 };
