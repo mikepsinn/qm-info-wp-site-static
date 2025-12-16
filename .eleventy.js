@@ -10,6 +10,7 @@ module.exports = function(eleventyConfig) {
   // Ignore files we don't want to process
   eleventyConfig.ignores.add("node_modules/**");
   eleventyConfig.ignores.add("perfect-your-life/**");
+  eleventyConfig.ignores.add("dark-website/**");
   eleventyConfig.ignores.add("update-app-urls.ps1");
   eleventyConfig.ignores.add("update-app-urls.sh");
   eleventyConfig.ignores.add("migrate-to-11ty.js");

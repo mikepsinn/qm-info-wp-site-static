@@ -2,14 +2,12 @@
 title: "Ending Suffering With Math"
 description: "Health Platform IntegrationConnect to Apple Health, Fitbit, and other major health platforms."
 ogImage: "https://quantimodo.com/wp-content/uploads/2015/11/sleep-as-android_awu5er-672x255.png"
-canonicalUrl: "https://quantimodo.com/"
+
 ---
 {% include "header.njk" %}
 
 	================================================ -->
 	<div id="main">
-
-
 
 
 
@@ -20,7 +18,6 @@ canonicalUrl: "https://quantimodo.com/"
 				<div class="wrap-content">
 					
 				
-
 
 <!-- Begin Article -->
 <article id="post-18196" class="clearfix post-18196 page type-page status-publish has-post-thumbnail">
@@ -269,13 +266,91 @@ jQuery(window).load(function(){
 
 
 
-
-
-
 				</div><!--end wrap-content-->
 			</div><!--end main-page-template-->
 								</div><!--end .container-->
 
+</section>
+
+<!-- Neobrutalist Stats Section -->
+<section style="background: #fff; padding: 80px 20px; border-top: 8px solid #000;">
+	<div class="container" style="max-width: 1200px; margin: 0 auto;">
+		<h2 style="
+			font-size: 56px;
+			font-weight: 900;
+			text-align: center;
+			margin: 0 0 60px 0;
+			text-transform: uppercase;
+			letter-spacing: -2px;
+			background: #FFEB3B;
+			border: 5px solid #000;
+			padding: 20px;
+			box-shadow: 12px 12px 0 #000;
+			display: inline-block;
+			transform: rotate(-2deg);
+		">Our Impact</h2>
+		<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 32px; margin-top: 40px;">
+			{% import "macros/neo-achievement-card.njk" as achievementCard %}
+			{% set colors = ['#FFEB3B', '#00FFD1', '#FF006E', '#8B5CF6'] %}
+			{% for achievement in achievements %}
+				{{ achievementCard.render(achievement, colors[loop.index0]) }}
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+<!-- Neobrutalist How It Works Section -->
+<section style="background: #f5f5f5; padding: 80px 20px; border-top: 8px solid #000;">
+	<div class="container" style="max-width: 900px; margin: 0 auto;">
+		<h2 style="
+			font-size: 56px;
+			font-weight: 900;
+			text-align: center;
+			margin: 0 0 60px 0;
+			text-transform: uppercase;
+			letter-spacing: -2px;
+			background: #FF006E;
+			color: #fff;
+			border: 5px solid #000;
+			padding: 20px;
+			box-shadow: 12px 12px 0 #000;
+			text-shadow: 3px 3px 0 #000;
+		">How It Works</h2>
+		{% import "macros/neo-step-card.njk" as stepCard %}
+		{% set stepColors = ['#00FFD1', '#FFEB3B', '#8B5CF6'] %}
+		{% for step in steps %}
+			{{ stepCard.render(step, stepColors[loop.index0]) }}
+		{% endfor %}
+	</div>
+</section>
+
+<!-- Neobrutalist Features Section -->
+<section style="background: #fff; padding: 80px 20px; border-top: 8px solid #000;">
+	<div class="container" style="max-width: 1200px; margin: 0 auto;">
+		<h2 style="
+			font-size: 56px;
+			font-weight: 900;
+			text-align: center;
+			margin: 0 0 20px 0;
+			text-transform: uppercase;
+			letter-spacing: -2px;
+		">Who Benefits</h2>
+		<p style="
+			text-align: center;
+			font-size: 20px;
+			font-weight: 600;
+			margin: 0 0 60px 0;
+			max-width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+		">QuantiModo makes everyone better off through open-source collaboration</p>
+		<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px;">
+			{% import "macros/neo-feature-card.njk" as featureCard %}
+			{% for feature in features %}
+				{{ featureCard.render(feature) }}
+			{% endfor %}
+		</div>
+	</div>
 </section>
 
 {% include "footer.njk" %}

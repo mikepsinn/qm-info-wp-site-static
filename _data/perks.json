@@ -1,0 +1,26 @@
+[
+  {
+    "section": "top",
+    "icon": "https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/622ae9989475a6c9cf686c93_digital-health-app.svg",
+    "title": "350,000 Health Apps",
+    "description": "Most health apps have significant overlap in functionality. This represents a cost of $157,500,000,000 on duplication of effort."
+  },
+  {
+    "section": "top",
+    "icon": "https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/61f4b7c99c4bc0e9b5eb5d63_icon-3-careers-perks-dark-template.svg",
+    "title": "50X Explosion in Health Data",
+    "description": "The problem is that all this data is dispersed. In isolation, it can only provide dashboards with \"descriptive\" statistics about what you've done. We need \"prescriptive\" solutions, telling us what we should do to alleviate or prevent disease."
+  },
+  {
+    "section": "bottom",
+    "icon": "https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/61f4b7c99c4bc04eb1eb5d31_icon-3-home-perks-dark-template.svg",
+    "title": "Closed-Source Horizontal Stagnation",
+    "description": "It's hard to make any progress when we're paying over 350,000 programmers to build the exact same basic functionalities."
+  },
+  {
+    "section": "bottom",
+    "icon": "https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/622aeadedc8e84d3192d102e_rocket.svg",
+    "title": "Open-Source Vertical Innovation",
+    "description": "By standing on each other's shoulders instead of duplicating work, we can potentially increase the rate of progress by 350,000 times."
+  }
+]

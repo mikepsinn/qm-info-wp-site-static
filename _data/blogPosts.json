@@ -1,0 +1,104 @@
+[
+  {
+    "url": "blog/digital-twin-safe.html",
+    "title": "Digital Twin Safe",
+    "date": "July 29, 2024",
+    "readTime": null,
+    "image": {
+      "src": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/63719f6c913d03d07b5c4023_digital-twin-safe-screenshot-home.png",
+      "sizes": "(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px",
+      "srcset": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/63719f6c913d03d07b5c4023_digital-twin-safe-screenshot-home-p-500.png 500w, https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/63719f6c913d03d07b5c4023_digital-twin-safe-screenshot-home-p-800.png 800w, https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/63719f6c913d03d07b5c4023_digital-twin-safe-screenshot-home-p-1080.png 1080w, https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/63719f6c913d03d07b5c4023_digital-twin-safe-screenshot-home-p-1600.png 1600w, https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/63719f6c913d03d07b5c4023_digital-twin-safe-screenshot-home.png 1893w"
+    },
+    "category": {
+      "name": "Projects",
+      "icon": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall.png",
+      "sizes": "(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px",
+      "srcset": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall-p-500.png 500w, https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall.png 960w"
+    }
+  },
+  {
+    "url": "blog/predictor-search-engine-plugin.html",
+    "title": "Predictor Search Engine",
+    "date": "October 8, 2023",
+    "readTime": 7,
+    "image": {
+      "src": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/63719ec5f2d5ec5ab94a14eb_predictor-search-cards.PNG",
+      "sizes": "(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px",
+      "srcset": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/63719ec5f2d5ec5ab94a14eb_predictor-search-cards-p-500.png 500w, https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/63719ec5f2d5ec5ab94a14eb_predictor-search-cards.PNG 772w"
+    },
+    "category": {
+      "name": "Projects",
+      "icon": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall.png",
+      "sizes": "(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px",
+      "srcset": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall-p-500.png 500w, https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall.png 960w"
+    }
+  },
+  {
+    "url": "blog/root-cause-analysis-plugins.html",
+    "title": "Root Cause Analysis",
+    "date": "October 8, 2023",
+    "readTime": 7,
+    "image": {
+      "src": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/6377085f8dbc3527a6121ad0_factors-slide.png",
+      "sizes": "(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px",
+      "srcset": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/6377085f8dbc3527a6121ad0_factors-slide-p-500.png 500w, https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/6377085f8dbc3527a6121ad0_factors-slide-p-800.png 800w, https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/6377085f8dbc3527a6121ad0_factors-slide.png 960w"
+    },
+    "category": {
+      "name": "Projects",
+      "icon": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall.png",
+      "sizes": "(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px",
+      "srcset": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall-p-500.png 500w, https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall.png 960w"
+    }
+  },
+  {
+    "url": "blog/outcome-labels-plugin.html",
+    "title": "Outcome Labels",
+    "date": "October 8, 2023",
+    "readTime": 6,
+    "image": {
+      "src": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/62534fea3972c983273b78ef_Outcome%20Labels.png",
+      "sizes": "(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px",
+      "srcset": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/62534fea3972c983273b78ef_Outcome%20Labels-p-500.png 500w, https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/62534fea3972c983273b78ef_Outcome%20Labels-p-800.png 800w, https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/62534fea3972c983273b78ef_Outcome%20Labels.png 1280w"
+    },
+    "category": {
+      "name": "Projects",
+      "icon": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall.png",
+      "sizes": "(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px",
+      "srcset": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall-p-500.png 500w, https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall.png 960w"
+    }
+  },
+  {
+    "url": "blog/no-code-health-app-builder.html",
+    "title": "No Code Health App Builder",
+    "date": "October 8, 2023",
+    "readTime": 2,
+    "image": {
+      "src": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/625097b31a6f68760024fdf2_app-builder-skinny.png",
+      "sizes": null,
+      "srcset": null
+    },
+    "category": {
+      "name": "Projects",
+      "icon": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall.png",
+      "sizes": "(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px",
+      "srcset": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall-p-500.png 500w, https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall.png 960w"
+    }
+  },
+  {
+    "url": "blog/observational-studies-plugin.html",
+    "title": "Mega Studies",
+    "date": "October 8, 2023",
+    "readTime": 7,
+    "image": {
+      "src": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33c73c091d47f3ac0b02_journal-of-citizen-science.png",
+      "sizes": "(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px",
+      "srcset": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33c73c091d47f3ac0b02_journal-of-citizen-science-p-500.png 500w, https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33c73c091d47f3ac0b02_journal-of-citizen-science.png 700w"
+    },
+    "category": {
+      "name": "Projects",
+      "icon": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall.png",
+      "sizes": "(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px",
+      "srcset": "https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall-p-500.png 500w, https://cdn.prod.website-files.com/61f4b7c99c4bc07ab2eb5cc0/624a33964644a2078862c37b_plugin-marketplace-tall.png 960w"
+    }
+  }
+]
