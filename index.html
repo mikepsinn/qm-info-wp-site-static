@@ -392,8 +392,7 @@ jQuery(window).load(function(){
 			font-size: 48px;
 			font-weight: 900;
 			margin: 0 0 40px 0;
-			text-shadow: 3px 3px 0 #000;
-		">Unfortunately, Clinical Research is SLOW, EXPENSIVE, and IMPRECISE</h2>
+			">Unfortunately, Clinical Research is SLOW, EXPENSIVE, and IMPRECISE</h2>
 
 		<div style="background: rgba(0,0,0,0.2); border: 5px solid #000; padding: 40px; margin: 40px 0; text-align: left;">
 			<ul style="font-size: 20px; line-height: 2; list-style: none; padding: 0;">
@@ -404,7 +403,7 @@ jQuery(window).load(function(){
 			</ul>
 		</div>
 
-		<h3 style="font-size: 42px; font-weight: 900; margin: 60px 0 20px 0; text-shadow: 2px 2px 0 #000;">80% of Clinical Trials Fail Due to Insufficient Participants</h3>
+		<h3 style="font-size: 42px; font-weight: 900; margin: 60px 0 20px 0; ">80% of Clinical Trials Fail Due to Insufficient Participants</h3>
 	</div>
 </section>
 
@@ -416,8 +415,7 @@ jQuery(window).load(function(){
 			font-weight: 900;
 			color: #FFEB3B;
 			margin: 0 0 40px 0;
-			text-shadow: 4px 4px 0 #000;
-		">Yet</h2>
+			">Yet</h2>
 		<h3 style="
 			font-size: 36px;
 			font-weight: 700;
@@ -470,8 +468,7 @@ jQuery(window).load(function(){
 			text-transform: uppercase;
 			letter-spacing: -2px;
 			color: #FF6B6B;
-			text-shadow: 3px 3px 0 #000;
-		">The Problem</h2>
+			">The Problem</h2>
 		<p style="
 			text-align: center;
 			font-size: 22px;
@@ -535,8 +532,7 @@ jQuery(window).load(function(){
 			border: 5px solid #000;
 			padding: 20px;
 			box-shadow: 12px 12px 0 #000;
-			text-shadow: 3px 3px 0 #000;
-		">How It Works</h2>
+			">How It Works</h2>
 		{% import "macros/neo-step-card.njk" as stepCard %}
 		{% set stepColors = ['#00FFD1', '#FFEB3B', '#8B5CF6'] %}
 		{% for step in steps %}
@@ -545,35 +541,6 @@ jQuery(window).load(function(){
 	</div>
 </section>
 
-<!-- Automation Details Section -->
-<section style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 80px 20px; border-top: 8px solid #000;">
-	<div class="container" style="max-width: 1100px; margin: 0 auto;">
-		<h2 style="
-			font-size: 56px;
-			font-weight: 900;
-			text-align: center;
-			margin: 0 0 20px 0;
-			text-transform: uppercase;
-			letter-spacing: -2px;
-			color: #fff;
-			text-shadow: 4px 4px 0 #000;
-		">Automation in Detail</h2>
-		<p style="
-			text-align: center;
-			font-size: 22px;
-			font-weight: 600;
-			margin: 0 0 60px 0;
-			color: #fff;
-			line-height: 1.6;
-		">Each step is powered by AI to make clinical research effortless for everyone</p>
-
-		{% import "macros/neo-feature-list.njk" as featureList %}
-		{% set automationColors = ['#00FFD1', '#FFEB3B', '#FF6B6B'] %}
-		{% for section in automationFeatures %}
-			{{ featureList.render(section, automationColors[loop.index0]) }}
-		{% endfor %}
-	</div>
-</section>
 
 <!-- The Vision Section -->
 <section style="background: #1a1a1a; padding: 80px 20px; border-top: 8px solid #000; text-align: center;">
