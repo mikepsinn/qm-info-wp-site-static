@@ -66,7 +66,7 @@ All 58 sections from fdai.earth have been downloaded, split, and renamed with me
 
 Include all sections:
 ```njk
-{% include "fdai/all-sections.njk" %}
+{% include "fdai/fdai-all-sections.njk" %}
 ```
 
 Include specific sections:
@@ -79,6 +79,6 @@ Include specific sections:
 ## Files
 
 - **Total sections**: 58 individual .njk files
-- **Master include**: all-sections.njk
+- **Master include**: fdai-all-sections.njk
 - **Images**: 88 images in fdai-homepage/images/
 - **All image paths**: Updated to /fdai-homepage/images/
