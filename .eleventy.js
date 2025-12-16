@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("wp-includes");
   eleventyConfig.addPassthroughCopy("fdai-homepage/images");
   eleventyConfig.addPassthroughCopy("fdai-homepage/css");
+  eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("sitemap.xml");
