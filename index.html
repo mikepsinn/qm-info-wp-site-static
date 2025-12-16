@@ -272,6 +272,40 @@ jQuery(window).load(function(){
 
 </section>
 
+<!-- Neobrutalist Problems Section -->
+<section style="background: #2a2a2a; padding: 80px 20px; border-top: 8px solid #000;">
+	<div class="container" style="max-width: 1200px; margin: 0 auto;">
+		<h2 style="
+			font-size: 56px;
+			font-weight: 900;
+			text-align: center;
+			margin: 0 0 30px 0;
+			text-transform: uppercase;
+			letter-spacing: -2px;
+			color: #FF6B6B;
+			text-shadow: 3px 3px 0 #000;
+		">The Problem</h2>
+		<p style="
+			text-align: center;
+			font-size: 22px;
+			font-weight: 600;
+			margin: 0 0 60px 0;
+			max-width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+			color: #fff;
+			line-height: 1.5;
+		">Clinical research is too slow and expensive. Meanwhile, billions suffer without cures.</p>
+		<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 32px;">
+			{% import "macros/neo-problem-card.njk" as problemCard %}
+			{% set problemColors = ['#FF6B6B', '#FF8E53', '#FFA07A', '#FF6B9D', '#FF5252', '#FF7043'] %}
+			{% for problem in problems %}
+				{{ problemCard.render(problem, problemColors[loop.index0]) }}
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
 <!-- Neobrutalist Stats Section -->
 <section style="background: #fff; padding: 80px 20px; border-top: 8px solid #000;">
 	<div class="container" style="max-width: 1200px; margin: 0 auto;">
@@ -321,6 +355,72 @@ jQuery(window).load(function(){
 		{% for step in steps %}
 			{{ stepCard.render(step, stepColors[loop.index0]) }}
 		{% endfor %}
+	</div>
+</section>
+
+<!-- Automation Details Section -->
+<section style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 80px 20px; border-top: 8px solid #000;">
+	<div class="container" style="max-width: 1100px; margin: 0 auto;">
+		<h2 style="
+			font-size: 56px;
+			font-weight: 900;
+			text-align: center;
+			margin: 0 0 20px 0;
+			text-transform: uppercase;
+			letter-spacing: -2px;
+			color: #fff;
+			text-shadow: 4px 4px 0 #000;
+		">Automation in Detail</h2>
+		<p style="
+			text-align: center;
+			font-size: 22px;
+			font-weight: 600;
+			margin: 0 0 60px 0;
+			color: #fff;
+			line-height: 1.6;
+		">Each step is powered by AI to make clinical research effortless for everyone</p>
+
+		{% import "macros/neo-feature-list.njk" as featureList %}
+		{% set automationColors = ['#00FFD1', '#FFEB3B', '#FF6B6B'] %}
+		{% for section in automationFeatures %}
+			{{ featureList.render(section, automationColors[loop.index0]) }}
+		{% endfor %}
+	</div>
+</section>
+
+<!-- The Vision Section -->
+<section style="background: #1a1a1a; padding: 80px 20px; border-top: 8px solid #000; text-align: center;">
+	<div class="container" style="max-width: 900px; margin: 0 auto;">
+		<h2 style="
+			font-size: 48px;
+			font-weight: 900;
+			margin: 0 0 30px 0;
+			color: #FF6B6B;
+			text-transform: uppercase;
+			letter-spacing: -1px;
+		">Imagine if we could automate clinical research!</h2>
+
+		<img src="/fdai-homepage/images/black-box-model-animation2.gif" alt="Automated Clinical Research" style="
+			max-width: 100%;
+			border: 5px solid #000;
+			box-shadow: 12px 12px 0 #FF6B6B;
+			margin: 40px 0;
+		" />
+
+		<p style="
+			font-size: 24px;
+			font-weight: 600;
+			color: #fff;
+			line-height: 1.6;
+			margin: 40px 0;
+		">The cost savings from automating clinical research could save <span style="color: #00FFD1; font-weight: 900;">$360 billion annually</span> in healthcare costs through preventative care discoveries.</p>
+
+		<img src="/fdai-homepage/images/cost-clinical-research-with-automation-pointer.png" alt="Cost Savings Chart" style="
+			max-width: 100%;
+			border: 5px solid #000;
+			box-shadow: 12px 12px 0 #00FFD1;
+			margin: 40px 0;
+		" />
 	</div>
 </section>
 

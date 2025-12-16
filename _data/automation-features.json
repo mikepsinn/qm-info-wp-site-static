@@ -1,0 +1,85 @@
+[
+  {
+    "title": "1. Automated Data Collection",
+    "features": [
+      {
+        "name": "Import from Wearables and Apps",
+        "description": "Automatically sync data from your Apple Health, Fitbit, sleep trackers, nutrition apps, and more."
+      },
+      {
+        "name": "Browser AI Agents",
+        "description": "AI agents autonomously collect your dietary intake, supplement usage, and prescription data from online sources."
+      },
+      {
+        "name": "Manual Data Collection",
+        "description": "Easy voice or text input for symptoms, treatments, and lifestyle factors when automated collection isn't available."
+      },
+      {
+        "name": "Data from Speech",
+        "description": "Voice-based symptom reporting and health journaling with natural language processing."
+      },
+      {
+        "name": "Images to Data",
+        "description": "Take photos of meals, supplements, or symptoms and AI converts them to structured data."
+      },
+      {
+        "name": "Notifications",
+        "description": "Smart reminders for data collection, medication adherence, and study participation."
+      }
+    ]
+  },
+  {
+    "title": "2. Automated Data Analysis",
+    "features": [
+      {
+        "name": "Automated Causal Inference",
+        "description": "Advanced algorithms determine which factors are actually causing your symptoms vs mere correlations."
+      },
+      {
+        "name": "Root Cause Analysis",
+        "description": "Identify the specific foods, supplements, medications, or lifestyle factors impacting your health."
+      },
+      {
+        "name": "Onset Delay Analysis",
+        "description": "Account for the time lag between taking an action and seeing effects (e.g., supplements may take weeks to work)."
+      },
+      {
+        "name": "Duration of Action",
+        "description": "Understand how long effects last to optimize timing and dosing."
+      },
+      {
+        "name": "Cumulative Effects",
+        "description": "Track long-term impacts and cumulative benefits or risks over time."
+      }
+    ]
+  },
+  {
+    "title": "3. Effortless Trial Participation",
+    "features": [
+      {
+        "name": "Automated Trial Discovery",
+        "description": "AI matches you with relevant clinical trials based on your conditions and data."
+      },
+      {
+        "name": "One-Click Enrollment",
+        "description": "Join studies with a single click - no lengthy paperwork or site visits required."
+      },
+      {
+        "name": "Passive Data Sharing",
+        "description": "Your existing data streams automatically contribute to research once you opt in."
+      },
+      {
+        "name": "Citizen Science",
+        "description": "Anyone can create and run their own studies to test hypotheses about health interventions."
+      },
+      {
+        "name": "Open Publication",
+        "description": "All results published in 'Clinipedia' - a Wikipedia for clinical research findings."
+      },
+      {
+        "name": "Real-world Evidence",
+        "description": "Studies use real-world data from daily life, not just controlled lab settings."
+      }
+    ]
+  }
+]

@@ -3,6 +3,7 @@ module.exports = function(eleventyConfig) {
   // Copy entire directories (more efficient than glob patterns)
   eleventyConfig.addPassthroughCopy("wp-content");
   eleventyConfig.addPassthroughCopy("wp-includes");
+  eleventyConfig.addPassthroughCopy("fdai-homepage/images");
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("sitemap.xml");
@@ -18,6 +19,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.ignores.add("package-lock.json");
   eleventyConfig.ignores.add(".git/**");
   eleventyConfig.ignores.add("README.md");
+  eleventyConfig.ignores.add("fdai-homepage/index.html");
 
   return {
     dir: {

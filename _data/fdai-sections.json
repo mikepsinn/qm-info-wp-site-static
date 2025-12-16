@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "title": "Let's automate clinical research!",
+    "subtitle": "Let's give everyone their own personal FDA AI agent to autonomously discover the positive and negative effects of every food and drug in the world!",
+    "mainImage": "/fdai-homepage/images/black-box-model-animation2.gif"
+  },
+  "options": {
+    "title": "You have 2 options.",
+    "option1": {
+      "label": "Option 1.",
+      "text": "Wait decades for the current system to maybe find cures"
+    },
+    "option2": {
+      "label": "Option 2.",
+      "text": "Help us automate clinical research and accelerate discovery"
+    }
+  },
+  "whySuffer": {
+    "title": "2 Billion People are SUFFERING",
+    "description": "from chronic diseases like depression, fibromyalgia, Crohn's disease, and multiple sclerosis. There are over 7000 diseases that we still don't have cures for.",
+    "chartImage": "/fdai-homepage/images/correlates-of-disease-incidence-no-title.png",
+    "chartTitle": "Since the 1990's, we've seen a continual rise in the incidence of Chronic Diseases"
+  },
+  "chemicals": {
+    "title": "The ONLY thing that has changed is the",
+    "subtitle": "chemicals in your food",
+    "image": "/fdai-homepage/images/chemicals-in-our-diet.png"
+  },
+  "goodNews": {
+    "title": "Good News!",
+    "text": "There could be billions of cures we don't even know about yet!",
+    "description": "Of the 166 billion potential medicinal molecules, we've only tested 0.00001%. That means we've barely scratched the surface of potential treatments."
+  },
+  "slowResearch": {
+    "title": "Unfortunately, Clinical Research is SLOW, EXPENSIVE, and IMPRECISE",
+    "stats": [
+      "It costs about $2.6 billion and takes about 12 years to bring a new drug to market",
+      "We only approve around 30 drugs a year",
+      "It would take over 350 years to find all the cures at this rate!",
+      "So, you'll be long dead by then."
+    ]
+  },
+  "participation": {
+    "bigStat": "Yet",
+    "subtitle": "Less than 1% of People with Chronic Diseases Participate in Clinical Research",
+    "failure": "80% of Clinical Trials Fail Due to Insufficient Participants"
+  },
+  "death": {
+    "question": "So should we just wait for the sweet release of death?",
+    "image": "/fdai-homepage/images/decay.gif"
+  },
+  "robots": {
+    "answer": "NO! We can fix it with the power of robots!",
+    "image": "/fdai-homepage/images/super-fda-robot.jpg",
+    "vision": "But imagine if we could automate clinical research!",
+    "animationImage": "/fdai-homepage/images/black-box-model-animation2.gif"
+  },
+  "costSavings": {
+    "title": "The cost savings from automating clinical research could make the next part of that chart look like this:",
+    "image": "/fdai-homepage/images/cost-clinical-research-with-automation-pointer.png",
+    "savingsText": "By eliminating 90% of the cost of clinical research, we could save $360 billion annually in healthcare costs through preventative care discoveries."
+  }
+}
