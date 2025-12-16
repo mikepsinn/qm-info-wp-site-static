@@ -1,0 +1,19 @@
+{% include "header.njk" %}
+
+<div id="main">
+  <section class="container-wrap main-color">
+    <div id="main-container" class="container-full">
+      <div class="template-page col-sm-12 tpl-no">
+        <div class="wrap-content">
+          <article class="clearfix">
+            <div class="article-content">
+              {{ content | safe }}
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+{% include "footer.njk" %}
