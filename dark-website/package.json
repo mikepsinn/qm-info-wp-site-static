@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "eleventy",
+    "serve": "eleventy --serve --port=3000",
+    "start": "eleventy --serve --port=3000"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/622addac38c4968360b98e3c_curedao-tokens.svg",
+    "title": "<strong>Developers & Researchers</strong>",
+    "description": "By contributing to the success of QuantiModo, you'll enjoy ongoing royalties in proportion to your contributions."
+  },
+  {
+    "icon": "https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/622ae9738e266ff6e752085c_data-silos.svg",
+    "title": "Health Platforms",
+    "description": "Apple Health, Fitbit, and other platforms can integrate with QuantiModo to provide users with deeper insights from their health data through our analytics engine."
+  },
+  {
+    "icon": "https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/622ae9d6709820459fce7137_digital-health.svg",
+    "title": "Users & Patients",
+    "description": "Discover what improves YOUR health through personal analytics. Get real-time insights to optimize your diet, sleep, exercise, and supplements based on your own data."
+  },
+  {
+    "icon": "https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/622ae9989475a6c9cf686c93_digital-health-app.svg",
+    "title": "<strong>Digital Health</strong>",
+    "description": "Health startups can use our platform to reduce development costs by 80%. Focus on your unique value proposition instead of rebuilding data aggregation, analytics, and visualization features."
+  },
+  {
+    "icon": "https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/622addcc5a2e000685e99f73_data-donors.svg",
+    "title": "Non-Profits",
+    "description": "Disease advocacy organizations can run studies for specific conditions using our platform. Engage members in meaningful research instead of traditional charity walks."
+  },
+  {
+    "icon": "https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/622ae9a7418ad56a3b843f56_government.svg",
+    "title": "Government",
+    "description": "Reduce healthcare costs through preventive insights discovered from population health data. Countries using shared open-source infrastructure can reduce development costs significantly."
+  }
+]

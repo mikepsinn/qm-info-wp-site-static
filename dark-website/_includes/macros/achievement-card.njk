@@ -1,0 +1,8 @@
+{% macro render(achievement) %}
+<div data-w-id="{{ achievement.dataWId }}" class="card about-hero-achievement">
+    <div class="card-about-hero-achievement-wrapper">
+        <div class="number-big card-about-hero-achievement">{{ achievement.number }}<span class="{{ achievement.accentClass }}">+</span></div>
+        <div class="card-about-hero-achievement-text">{{ achievement.label }}</div>
+    </div>
+</div>
+{% endmacro %}

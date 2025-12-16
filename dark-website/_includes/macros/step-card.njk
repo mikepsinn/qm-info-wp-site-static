@@ -1,0 +1,16 @@
+{% macro render(step) %}
+<div data-w-id="{{ step.dataWId }}" class="card home-step">
+    <div class="{{ step.contentClass }}">
+        <div class="title h3-size card-home-step-number">{{ step.label }}</div>
+        <h3 class="title card-home-step">{{ step.title }}</h3>
+        <p class="paragraph card-home-step">{{ step.description | safe }}</p>
+    </div>
+    <div class="image-wrapper card-home-step">
+        <img src="{{ step.image.src }}" loading="eager"
+             {% if step.image.sizes %}sizes="{{ step.image.sizes }}"{% endif %}
+             {% if step.image.srcset %}srcset="{{ step.image.srcset }}"{% endif %}
+             {% if step.image.width %}width="{{ step.image.width }}"{% endif %}
+             alt="" class="image card-home-step"/>
+    </div>
+</div>
+{% endmacro %}

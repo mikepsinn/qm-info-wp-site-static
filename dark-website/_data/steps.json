@@ -1,0 +1,36 @@
+[
+  {
+    "dataWId": "2eeda686-20cb-7f87-db2a-09f5b53010db",
+    "contentClass": "card-home-step-content-copy",
+    "label": "Data Aggregation",
+    "title": "Unified Health API",
+    "description": "<span>The core open-source platform standardizes data from a wide array of sources and formats.</span>",
+    "image": {
+      "src": "https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/622d2abdc7048191dc4ca7a8_data-aggregation-circle-background-square.png",
+      "sizes": "(max-width: 767px) 100vw, (max-width: 991px) 728px, 768px",
+      "srcset": "https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/622d2abdc7048191dc4ca7a8_data-aggregation-circle-background-square-p-500.png 500w, https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/622d2abdc7048191dc4ca7a8_data-aggregation-circle-background-square.png 768w"
+    }
+  },
+  {
+    "dataWId": "2eeda686-20cb-7f87-db2a-09f5b53010e7",
+    "contentClass": "card-home-step-content",
+    "label": "Composability",
+    "title": "Analytics Engine",
+    "description": "<span>Analyze correlations between diet, sleep, exercise and health outcomes. Browse 90,000+ studies or run your own.</span>",
+    "image": {
+      "src": "https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/622d2c12017df8f7aad60844_plugin-marketplace-tall.png",
+      "sizes": "(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px",
+      "srcset": "https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/622d2c12017df8f7aad60844_plugin-marketplace-tall-p-500.png 500w, https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/622d2c12017df8f7aad60844_plugin-marketplace-tall.png 960w"
+    }
+  },
+  {
+    "dataWId": "2eeda686-20cb-7f87-db2a-09f5b53010f3",
+    "contentClass": "card-home-step-content",
+    "label": "Incentivizing",
+    "title": "No-Code App Builder",
+    "description": "Create custom health tracking apps without coding. Configure data sources, analytics, and visualizations through a simple interface.",
+    "image": {
+      "src": "https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/624b72069501646f1ccd65bb_token%20compensation%20with%20background.png"
+    }
+  }
+]

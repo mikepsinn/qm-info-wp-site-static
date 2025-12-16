@@ -1,0 +1,52 @@
+{% macro render(post) %}
+<div bind="636dd80b-4b4c-0a91-4576-90df60f62912" role="listitem" class="post-item w-dyn-item">
+    <a bind="636dd80b-4b4c-0a91-4576-90df60f62913" href="{{ post.url }}" class="card post-item w-inline-block">
+        <div class="image-wrapper card-post-item">
+            <img alt="" loading="eager" bind="636dd80b-4b4c-0a91-4576-90df60f62915"
+                 src="{{ post.image.src }}"
+                 {% if post.image.sizes %}sizes="{{ post.image.sizes }}"{% endif %}
+                 {% if post.image.srcset %}srcset="{{ post.image.srcset }}"{% endif %}
+                 class="image card-post-item"/>
+            <div bind="636dd80b-4b4c-0a91-4576-90df60f62916" class="card-post-item-category-wrapper">
+                <img alt="" loading="eager" bind="636dd80b-4b4c-0a91-4576-90df60f62917"
+                     src="{{ post.category.icon }}"
+                     {% if post.category.sizes %}sizes="{{ post.category.sizes }}"{% endif %}
+                     {% if post.category.srcset %}srcset="{{ post.category.srcset }}"{% endif %}
+                     class="image card-post-item-category-icon"/>
+                <div bind="636dd80b-4b4c-0a91-4576-90df60f62918" class="card-post-item-category-text">{{ post.category.name }}</div>
+            </div>
+        </div>
+        <div class="card-post-item-content">
+            <h3 bind="636dd80b-4b4c-0a91-4576-90df60f6291a" class="title card-post-item">{{ post.title }}</h3>
+            <div class="card-post-item-about-wrapper">
+                <div class="card-post-item-about-content">
+                    <img src="https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/61f4b7c99c4bc06f3aeb5d3b_icon-1-post-about-dark-template.svg" loading="eager" alt="" class="image card-post-item-about-icon"/>
+                    <div bind="636dd80b-4b4c-0a91-4576-90df60f6291e">{{ post.date }}</div>
+                </div>
+                {% if post.readTime %}
+                <div bind="636dd80b-4b4c-0a91-4576-90df60f6291f" class="card-post-item-about-content">
+                    <img src="https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/61f4b7c99c4bc0d18ceb5d3c_icon-2-post-about-dark-template.svg" loading="eager" alt="" class="image card-post-item-about-icon"/>
+                    <div bind="636dd80b-4b4c-0a91-4576-90df60f62921">{{ post.readTime }}</div>
+                    <div> min read</div>
+                </div>
+                {% else %}
+                <div bind="636dd80b-4b4c-0a91-4576-90df60f6291f" class="card-post-item-about-content w-condition-invisible">
+                    <img src="https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/61f4b7c99c4bc0d18ceb5d3c_icon-2-post-about-dark-template.svg" loading="eager" alt="" class="image card-post-item-about-icon"/>
+                    <div bind="636dd80b-4b4c-0a91-4576-90df60f62921" class="w-dyn-bind-empty"></div>
+                    <div> min read</div>
+                </div>
+                {% endif %}
+            </div>
+            <div class="link-underline-main-wrapper">
+                <div class="link-underline-text-wrapper">
+                    <div>Read more</div>
+                    <div class="link-underline-text-icon"></div>
+                </div>
+                <div class="link-underline-wrapper">
+                    <div class="link-underline"></div>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+{% endmacro %}

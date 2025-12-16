@@ -1,0 +1,9 @@
+{% macro render(perk) %}
+<div class="home-perk-wrapper">
+    <img src="{{ perk.icon }}" loading="eager" alt="" class="image home-perk"/>
+    <div class="home-perk-content">
+        <h3 class="title h4-size home-perk">{{ perk.title }}</h3>
+        <p class="paragraph home-perk">{{ perk.description }}</p>
+    </div>
+</div>
+{% endmacro %}

@@ -1,0 +1,26 @@
+[
+  {
+    "dataWId": "3a178578-8843-1b74-e4dc-261460534c6c",
+    "number": "12M",
+    "accentClass": "accent-primary-2-copy",
+    "label": "Data Points"
+  },
+  {
+    "dataWId": "3a178578-8843-1b74-e4dc-261460534c74",
+    "number": "10K",
+    "accentClass": "accent-secondary-1",
+    "label": "Study participants"
+  },
+  {
+    "dataWId": "3a178578-8843-1b74-e4dc-261460534c7c",
+    "number": "90K",
+    "accentClass": "accent-secondary-2",
+    "label": "Studies"
+  },
+  {
+    "dataWId": "3a178578-8843-1b74-e4dc-261460534c84",
+    "number": "75",
+    "accentClass": "accent-secondary-3",
+    "label": "Partners"
+  }
+]

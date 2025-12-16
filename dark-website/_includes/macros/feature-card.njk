@@ -1,0 +1,9 @@
+{% macro render(feature) %}
+<div class="card home-feature">
+    <img src="{{ feature.icon }}" loading="eager" alt="" class="image card-home-feature"/>
+    <div class="card-home-feature-content">
+        <h3 class="title card-home-feature">{{ feature.title | safe }}</h3>
+        <p class="paragraph card-home-feature">{{ feature.description }}</p>
+    </div>
+</div>
+{% endmacro %}
