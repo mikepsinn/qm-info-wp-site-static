@@ -4,6 +4,9 @@
     "subtitle": "Let's give everyone their own personal FDA AI agent to autonomously discover the positive and negative effects of every food and drug in the world!",
     "mainImage": "/fdai-homepage/images/black-box-model-animation2.gif"
   },
+  "hereWhy": {
+    "title": "Here's why"
+  },
   "options": {
     "title": "You have 2 options.",
     "option1": {
@@ -38,12 +41,13 @@
       "We only approve around 30 drugs a year",
       "It would take over 350 years to find all the cures at this rate!",
       "So, you'll be long dead by then."
-    ]
+    ],
+    "failureRate": "80% of Clinical Trials Fail Due to Insufficient Participants",
+    "failureImage": "/fdai-homepage/images/cloe-confused-awkward.gif"
   },
   "participation": {
     "bigStat": "Yet",
-    "subtitle": "Less than 1% of People with Chronic Diseases Participate in Clinical Research",
-    "failure": "80% of Clinical Trials Fail Due to Insufficient Participants"
+    "subtitle": "Less than 1% of People with Chronic Diseases Participate in Clinical Research"
   },
   "death": {
     "question": "So should we just wait for the sweet release of death?",
@@ -59,5 +63,125 @@
     "title": "The cost savings from automating clinical research could make the next part of that chart look like this:",
     "image": "/fdai-homepage/images/cost-clinical-research-with-automation-pointer.png",
     "savingsText": "By eliminating 90% of the cost of clinical research, we could save $360 billion annually in healthcare costs through preventative care discoveries."
+  },
+  "dataCollection": {
+    "title": "1. Automated Data Collection",
+    "methods": [
+      {
+        "name": "Import from Wearables and Apps",
+        "description": "It should be effortless for patients to import their data from lots of apps and wearable devices like physical activity, sleep, environmental factors, and vital signs.",
+        "image": "/fdai-homepage/images/import.gif"
+      },
+      {
+        "name": "Browser AI Agents",
+        "description": "Patients should be able to use browser-based autonomous AI agents to collect their diet data from services like Instacart, supplement purchases from Amazon, CVS prescriptions, Quest lab results, etc.",
+        "image": "/fdai-homepage/images/autonomous-data-collection.gif"
+      },
+      {
+        "name": "Manual Data Collection",
+        "description": "Patients should be able to easily record any symptom severities, foods, treatments, or anything in a simple reminder inbox.",
+        "image": "/fdai-homepage/images/reminder-inbox.gif"
+      },
+      {
+        "name": "Data from Speech",
+        "description": "Patients who prefer talking over messing around with apps should be able to talk to the FDAi. This would also allow passive inference of cognitive and emotional data."
+      },
+      {
+        "name": "Images to Data",
+        "description": "Patients should be able to easily record any symptom severities, foods, treatments, or anything in a simple reminder inbox.",
+        "image": "/fdai-homepage/images/food-scan.gif"
+      },
+      {
+        "name": "Notifications",
+        "description": "Patients should be able to use web and mobile notifications with action buttons can be used to track symptoms and factors in a fraction of a second.",
+        "image": "/fdai-homepage/images/web-notification-curcumin-300x253.png"
+      }
+    ]
+  },
+  "automatedDataAnalysis": {
+    "title": "2. Automated Data Analysis",
+    "description": "Automated analysis of collected data to identify patterns and correlations",
+    "image": "/fdai-homepage/images/frequency-analysis-300x225.gif"
+  },
+  "automatedCausalInference": {
+    "title": "Automated Causal Inference",
+    "description": "Advanced causal inference algorithms to determine cause-and-effect relationships"
+  },
+  "personalStudies": {
+    "title": "Personal Studies",
+    "description": "For instance, when gluten-sensitive people eat delicious gluten, it usually takes about a 2-day onset delay before they start having symptoms. Then, when they stop eating it, there's usually a 10-day duration of action before their gut heals and their symptoms improve.",
+    "image": "/fdai-homepage/images/gluten-study.png",
+    "onsetDelays": {
+      "title": "Onset Delays",
+      "description": "One example of causal inference involves applying forward and reverse lagging of the depression and exercise data. The result suggests a causal relationship based on the temporal precedence of physical activity.",
+      "image": "/fdai-homepage/images/onset-delay-970x1024.png"
+    },
+    "durationOfAction": {
+      "title": "Duration of Action",
+      "description": "Understanding how long effects last after treatment or exposure",
+      "image": "/fdai-homepage/images/duration-of-action-1024x1024.png"
+    }
+  },
+  "effortlessTrialParticipation": {
+    "title": "3. Effortless Trial Participation",
+    "subtitle": "through automated:",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Trial Search",
+        "description": "If you're one of the inadequately treated 2 billion chronically ill and nothing else has worked for you, it should find you the most promising new treatment available.",
+        "image": "/fdai-homepage/images/autonomous-study-search-300x198.gif"
+      },
+      {
+        "number": "2",
+        "title": "Trial Enrollment",
+        "description": "If you want to participate, it should automatically enroll you and get the treatment shipped to you or whatever.",
+        "image": "/fdai-homepage/images/autonomous-study-join-300x198.gif"
+      },
+      {
+        "number": "3",
+        "title": "Data Collection",
+        "description": "The FDAi should automatically schedule all the tests and collect all the data to determine the safety and efficacy of the treatment.",
+        "image": "/fdai-homepage/images/autonomous-lab-order.gif"
+      },
+      {
+        "number": "4",
+        "title": "Data Analysis and Publishing",
+        "description": "The FDAi should then analyze and anonymize the data and publish the results for everyone.",
+        "image": "/fdai-homepage/images/clinipedia-study-pain-vitimin-b.gif"
+      }
+    ]
+  },
+  "megaStudies": {
+    "title": "Mega-Studies",
+    "description": "should allow anyone to look up their condition and see how different foods, drugs and supplements tend to improve or worsen their condition for the average person.",
+    "exampleLink": "https://studies.dfda.earth/variables/Overall_Mood",
+    "exampleText": "Example Mega-Study",
+    "image": "/fdai-homepage/images/clinipedia-inflammatory-pain-small.gif"
+  },
+  "outcomeLabels": {
+    "title": "Outcome Labels",
+    "description": "should be available for all foods and drugs that tell us precisely how they'll affect us instead of just how much Riboflavin is in them.",
+    "image": "/fdai-homepage/images/outcome-labels-no-bg.png"
+  },
+  "citizenScience": {
+    "title": "Citizen Science",
+    "description": "Anyone should be able to create a study, become a prestigious scientist, get a link, and invite all their friends to join!",
+    "createStudyLink": "https://safe.fdai.earth/app/public/#/app/study-creation",
+    "createStudyText": "Create Study",
+    "image": "/fdai-homepage/images/create-study-1024x899.gif"
+  },
+  "globalScaleStudies": {
+    "title": "Global Scale Studies",
+    "description": "should be published in a Wikipedia for clinical research based on everyone's data listing the likely effects of every food and drug.",
+    "currentStudiesLink": "https://studies.dfda.earth",
+    "currentStudiesText": "Current Studies",
+    "image": "/fdai-homepage/images/clinipedia-landing.gif"
+  },
+  "fdaiAct": {
+    "title": "Show Your Support for the FDAi Act!",
+    "description": "We want the FDA to give everyone a free super-intelligent doctor to automate clinical research and maximize universal health and happiness!",
+    "link": "https://www.dfda.earth/dfda/cure-acceleration-act",
+    "linkText": "Show Your Support!"
   }
 }
