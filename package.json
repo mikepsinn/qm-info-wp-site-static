@@ -13,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
+    "clean-css-cli": "^5.6.3",
     "cssbeautify": "^0.3.1",
     "glob": "^13.0.0"
   }
