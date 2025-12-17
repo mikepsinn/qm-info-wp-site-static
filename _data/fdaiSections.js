@@ -105,17 +105,56 @@ module.exports = {
     "link": {
       "text": "Try a Personal Study",
       "url": "https://studies.dfda.earth/"
+    },
+    "onsetDelays": {
+      "title": "Onset Delays",
+      "description": "One example of causal inference involves applying forward and reverse lagging of the depression and exercise data. The result suggests a causal relationship based on the temporal precedence of physical activity.",
+      "image": "/fdai-homepage/images/onset-delay.png"
+    },
+    "durationOfAction": {
+      "title": "Duration of Action",
+      "description": "Understanding how long effects last after treatment or exposure",
+      "image": "/fdai-homepage/images/duration-of-action.png"
     }
   },
   "effortlessTrialParticipation": {
     "title": "Effortless Trial Participation",
     "description": "No more tedious surveys or clinic visits. Clinical trial participation should be as easy as installing an app.",
-    "image": "/fdai-homepage/images/autonomous-study-join.gif"
+    "subtitle": "through automated:",
+    "image": "/fdai-homepage/images/autonomous-study-join.gif",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Trial Search",
+        "description": "If you're one of the inadequately treated 2 billion chronically ill and nothing else has worked for you, it should find you the most promising new treatment available.",
+        "image": "/fdai-homepage/images/autonomous-study-search.gif"
+      },
+      {
+        "number": "2",
+        "title": "Trial Enrollment",
+        "description": "If you want to participate, it should automatically enroll you and get the treatment shipped to you or whatever.",
+        "image": "/fdai-homepage/images/autonomous-study-join.gif"
+      },
+      {
+        "number": "3",
+        "title": "Data Collection",
+        "description": "The FDAi should automatically schedule all the tests and collect all the data to determine the safety and efficacy of the treatment.",
+        "image": "/fdai-homepage/images/autonomous-lab-order.gif"
+      },
+      {
+        "number": "4",
+        "title": "Data Analysis and Publishing",
+        "description": "The FDAi should then analyze and anonymize the data and publish the results for everyone.",
+        "image": "/fdai-homepage/images/clinipedia-study-pain-vitimin-b.gif"
+      }
+    ]
   },
   "megaStudies": {
     "title": "Mega Studies",
     "description": "By aggregating data from millions of people, we can discover insights that would be impossible in traditional small-scale clinical trials.",
-    "image": "/fdai-homepage/images/clinipedia-inflammatory-pain-small.gif"
+    "image": "/fdai-homepage/images/clinipedia-inflammatory-pain-small.gif",
+    "exampleLink": "https://studies.dfda.earth/variables/Overall_Mood",
+    "exampleText": "Example Mega-Study"
   },
   "outcomeLabels": {
     "title": "Outcome Labels",
@@ -129,12 +168,16 @@ module.exports = {
   "citizenScience": {
     "title": "Democratizing Discovery Through Citizen Science",
     "description": "Everyone should have the power to contribute to medical research. By participating in data collection and analysis, you're not just helping yourself—you're helping advance medical science for everyone.",
-    "image": "/fdai-homepage/images/create-study-1024x899.gif"
+    "image": "/fdai-homepage/images/create-study-1024x899.gif",
+    "createStudyLink": "https://safe.fdai.earth/app/public/#/app/study-creation",
+    "createStudyText": "Create Study"
   },
   "globalScaleStudies": {
     "title": "Global-Scale Studies",
     "description": "Traditional clinical trials are limited by geography, cost, and time. By leveraging digital health data from around the world, we can conduct studies at unprecedented scale.",
-    "image": "/fdai-homepage/images/clinipedia-landing.gif"
+    "image": "/fdai-homepage/images/clinipedia-landing.gif",
+    "currentStudiesLink": "https://studies.dfda.earth",
+    "currentStudiesText": "Current Studies"
   },
   "fdaiAct": {
     "title": "The FDAi Act: Accelerating Drug Discovery",
