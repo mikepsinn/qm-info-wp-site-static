@@ -44,7 +44,7 @@ siteName: "QUANTIMODO"
 - `siteName` - Site name shown in header (optional, defaults to "QUANTIMODO")
 - `pageId` - Page identifier (optional)
 - `siteId` - Site identifier (optional)
-- `domain` - Domain for data attributes (optional, defaults to quantimodo.com)
+- `domain` - Domain for data attributes (optional, defaults to QuAnTiMo.Do)
 
 ## Commands
 

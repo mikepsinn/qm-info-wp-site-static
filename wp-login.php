@@ -33,7 +33,7 @@
 <link rel="icon" href="/wp-content/uploads/2017/02/QM-LOGO-ICON-144-flat-arrow-butt-100x100.png" sizes="32x32" />
 <link rel="icon" href="/wp-content/uploads/2017/02/QM-LOGO-ICON-144-flat-arrow-butt.png" sizes="192x192" />
 <link rel="apple-touch-icon-precomposed" href="/wp-content/uploads/2017/02/QM-LOGO-ICON-144-flat-arrow-butt.png" />
-<meta name="msapplication-TileImage" content="https://quantimo.do/wp-content/uploads/2017/02/QM-LOGO-ICON-144-flat-arrow-butt.png" />
+<meta name="msapplication-TileImage" content="https://QuAnTiMo.Do/wp-content/uploads/2017/02/QM-LOGO-ICON-144-flat-arrow-butt.png" />
 	</head>
 	<body class="login login-action-login wp-core-ui  locale-en-us jetpack-sso jetpack-sso-form-display">
 		<div id="login">
@@ -70,7 +70,7 @@
 			<p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> Remember Me</label></p>
 	<p class="submit">
 		<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Log In" />
-		<input type="hidden" name="redirect_to" value="https://quantimo.do/wp-admin/nav-menus.php" />
+		<input type="hidden" name="redirect_to" value="https://QuAnTiMo.Do/wp-admin/nav-menus.php" />
 		<input type="hidden" name="testcookie" value="1" />
 	</p>
 </form>

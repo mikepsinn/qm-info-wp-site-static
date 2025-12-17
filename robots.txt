@@ -10,4 +10,4 @@ Allow: /research-platform/
 Allow: /developer-platform/
 
 # Sitemap
-Sitemap: https://quantimo.do/sitemap.xml
+Sitemap: https://QuAnTiMo.Do/sitemap.xml

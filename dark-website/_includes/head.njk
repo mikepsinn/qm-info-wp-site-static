@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html data-wf-domain="{{ domain | default('www.quantimodo.com') }}" data-wf-page="{{ pageId }}" data-wf-site="{{ siteId }}">
+<html data-wf-domain="{{ domain | default('www.QuAnTiMo.Do') }}" data-wf-page="{{ pageId }}" data-wf-site="{{ siteId }}">
 <head>
     <meta charset="utf-8"/>
     <title>{{ title }}</title>
     <meta content="{{ description }}" name="description"/>
     <meta content="{{ title }}" property="og:title"/>
     <meta content="{{ description }}" property="og:description"/>
-    <meta content="{{ ogImage | default('https://quantimodo.com/img/logo.png') }}" property="og:image"/>
+    <meta content="{{ ogImage | default('https://QuAnTiMo.Do/img/logo.png') }}" property="og:image"/>
     <meta content="{{ title }}" property="twitter:title"/>
     <meta content="{{ description }}" property="twitter:description"/>
-    <meta content="{{ ogImage | default('https://quantimodo.com/img/logo.png') }}" property="twitter:image"/>
+    <meta content="{{ ogImage | default('https://QuAnTiMo.Do/img/logo.png') }}" property="twitter:image"/>
     <meta property="og:type" content="website"/>
     <meta content="summary_large_image" name="twitter:card"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
@@ -23,7 +23,7 @@
 
     <link href="https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/62356e2e036f3bd392dddaa4_favicon-dark-rounded.png" rel="shortcut icon" type="image/x-icon"/>
     <link href="https://cdn.prod.website-files.com/61f4b7c99c4bc02769eb5cb8/623569e6a653a0a39b66b357_webclip.jpg" rel="apple-touch-icon"/>
-    <link href="{{ canonicalUrl | default('https://quantimodo.com') }}" rel="canonical"/>
+    <link href="{{ canonicalUrl | default('https://QuAnTiMo.Do') }}" rel="canonical"/>
 
     {% raw %}<script type="text/javascript">window.__WEBFLOW_CURRENCY_SETTINGS = {"currencyCode":"USD","symbol":"$","decimal":".","fractionDigits":2,"group":",","template":"{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}","hideDecimalForWholeNumbers":false};</script>{% endraw %}
 </head>

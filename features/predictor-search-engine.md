@@ -19,11 +19,11 @@ Clinicians and those suffering from chronic conditions will have access to the p
 
 ## Visualizations
 
-- [Network Graph Demo](https://app.quantimo.do/variables/Overall%20Mood)
-- [Study Cards in Ionic App Demo](https://web.quantimo.do/dev/src/ionic/src/index.html#/app/predictors/Overall%20Mood)
-- [Nutrition Facts Style Demo](https://app.quantimo.do/variables/Overall%20Mood)
-- [Bar Chart Demo](https://app.quantimo.do/variables/Overall%20Mood)
-- [Sankey Chart Demo](https://app.quantimo.do/variables/Overall%20Mood)
+- [Network Graph Demo](https://app.QuAnTiMo.Do/variables/Overall%20Mood)
+- [Study Cards in Ionic App Demo](https://web.QuAnTiMo.Do/dev/src/ionic/src/index.html#/app/predictors/Overall%20Mood)
+- [Nutrition Facts Style Demo](https://app.QuAnTiMo.Do/variables/Overall%20Mood)
+- [Bar Chart Demo](https://app.QuAnTiMo.Do/variables/Overall%20Mood)
+- [Sankey Chart Demo](https://app.QuAnTiMo.Do/variables/Overall%20Mood)
 
 ---
 

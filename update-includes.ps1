@@ -12,11 +12,11 @@ foreach ($file in $files) {
     $content = $content -replace '<a\s+href="https://github\.com/decentralized-fda"[^>]*>GitHub</a>', '{% include "github-link.njk" %}'
     $content = $content -replace '<a\s+href="https://github\.com/decentralized-fda"[^>]*>github\.com/decentralized-fda</a>', '{% include "github-link.njk" %}'
 
-    # Replace email addresses in page headers like: <i class="icon-mail-alt"></i> m@quantimo.do
+    # Replace email addresses in page headers like: <i class="icon-mail-alt"></i> m@QuAnTiMo.Do
     $content = $content -replace '<i class="icon-mail-alt"></i>\s+m@quantimo\.do', '<i class="icon-mail-alt"></i> {% include "contact-email.njk" %}'
     $content = $content -replace '<i class="icon-mail-alt"></i>\s+development@quantimo\.do', '<i class="icon-mail-alt"></i> {% include "contact-email.njk" %}'
 
-    # Replace email in text like "contact us at m@quantimo.do"
+    # Replace email in text like "contact us at m@QuAnTiMo.Do"
     $content = $content -replace '\bat m@quantimo\.do([.,)])', 'at {% include "contact-email.njk" %}$1'
     $content = $content -replace '\bat development@quantimo\.do([.,)])', 'at {% include "contact-email.njk" %}$1'
 
