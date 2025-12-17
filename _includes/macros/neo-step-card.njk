@@ -1,4 +1,5 @@
 {% macro render(step, color) %}
+{% set textColor = '#000' if color == '#FFEB3B' else '#fff' %}
 <div style="
   background: {{ color or '#FF006E' }};
   border: 5px solid #000;
@@ -14,19 +15,20 @@
     margin-bottom: 16px;
     font-weight: 900;
     font-size: 20px;
+    color: #000;
   ">{{ step.label }}</div>
   <h3 style="
     font-size: 32px;
     font-weight: 900;
     margin: 0 0 16px 0;
     text-transform: uppercase;
-    color: #fff;
+    color: {{ textColor }};
   ">{{ step.title }}</h3>
   <p style="
     font-size: 18px;
     line-height: 1.5;
     margin: 0;
-    color: #fff;
+    color: {{ textColor }};
     font-weight: 600;
   ">{{ step.description | safe }}</p>
 </div>

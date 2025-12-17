@@ -1,0 +1,29 @@
+<!-- Neobrutalist Features Section -->
+<section style="background: #fff; padding: 80px 20px; border-top: 8px solid #000;">
+	<div class="container" style="max-width: 1200px; margin: 0 auto;">
+		<h2 style="
+			font-size: 56px;
+			font-weight: 900;
+			text-align: center;
+			margin: 0 0 20px 0;
+			text-transform: uppercase;
+			letter-spacing: -2px;
+		">Who Benefits</h2>
+		<p style="
+			text-align: center;
+			font-size: 20px;
+			font-weight: 600;
+			margin: 0 0 60px 0;
+			max-width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+		">QuantiModo makes everyone better off through open-source collaboration</p>
+		<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px;">
+			{% import "macros/neo-feature-card.njk" as featureCard %}
+			{% for feature in features %}
+				{{ featureCard.render(feature) }}
+			{% endfor %}
+		</div>
+	</div>
+</section>
+

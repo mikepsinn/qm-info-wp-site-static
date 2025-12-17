@@ -1,0 +1,27 @@
+<!-- Neobrutalist Stats Section -->
+<section style="background: #fff; padding: 80px 20px; border-top: 8px solid #000;">
+	<div class="container" style="max-width: 1200px; margin: 0 auto;">
+		<h2 style="
+			font-size: 56px;
+			font-weight: 900;
+			text-align: center;
+			margin: 0 0 60px 0;
+			text-transform: uppercase;
+			letter-spacing: -2px;
+			background: #FFEB3B;
+			border: 5px solid #000;
+			padding: 20px;
+			box-shadow: 12px 12px 0 #000;
+			display: inline-block;
+			transform: rotate(-2deg);
+		">Our Impact</h2>
+		<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 32px; margin-top: 40px;">
+			{% import "macros/neo-achievement-card.njk" as achievementCard %}
+			{% set colors = ['#FFEB3B', '#00FFD1', '#FF006E', '#8B5CF6'] %}
+			{% for achievement in achievements %}
+				{{ achievementCard.render(achievement, colors[loop.index0]) }}
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
