@@ -182,10 +182,8 @@ module.exports = {
   "fdaiAct": {
     "title": "The FDAi Act: Accelerating Drug Discovery",
     "description": "We need policy changes to make this vision a reality. The FDAi Act would create a framework for safe, privacy-preserving medical research at scale.",
-    "link": {
-      "text": "Learn More About the FDAi Act",
-      "url": "https://warondisease.org/"
-    }
+    "link": "https://warondisease.org/",
+    "linkText": "Show Your Support!"
   }
 };
 
