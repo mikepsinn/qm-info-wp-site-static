@@ -1,0 +1,16 @@
+<!-- Global Scale Studies Section -->
+<section style="background: #1a1a1a; padding: 80px 20px; border-top: 8px solid #000; color: #fff;">
+  <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+    <h2 style="font-size: 56px; font-weight: 900; margin: 0 0 30px 0; color: #FFEB3B;">{{ fdaiSections.globalScaleStudies.title }}</h2>
+    <p style="font-size: 22px; line-height: 1.6; margin: 0 0 40px 0;">{{ fdaiSections.globalScaleStudies.description }}</p>
+    
+    {% if fdaiSections.globalScaleStudies.image %}
+    <img src="{{ fdaiSections.globalScaleStudies.image }}" alt="Global Scale Studies" style="max-width: 100%; border: 5px solid #000; box-shadow: 12px 12px 0 #FFEB3B; margin: 40px 0;" />
+    {% endif %}
+
+    <a href="{{ fdaiSections.globalScaleStudies.currentStudiesLink }}" target="_blank" style="display: inline-block; background: #FFEB3B; color: #000; padding: 16px 32px; border: 5px solid #000; box-shadow: 8px 8px 0 #000; font-weight: 900; font-size: 20px; text-decoration: none; margin-top: 20px;">
+      {{ fdaiSections.globalScaleStudies.currentStudiesText }}
+    </a>
+  </div>
+</section>
+

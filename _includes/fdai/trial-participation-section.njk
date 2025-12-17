@@ -1,0 +1,25 @@
+<!-- Effortless Trial Participation Section -->
+<section style="background: #FF006E; padding: 80px 20px; border-top: 8px solid #000; color: #fff;">
+  <div style="max-width: 1000px; margin: 0 auto;">
+    <h2 style="font-size: 56px; font-weight: 900; text-align: center; margin: 0 0 20px 0;">
+      {{ fdaiSections.effortlessTrialParticipation.title }}
+    </h2>
+    <p style="font-size: 24px; font-weight: 600; text-align: center; margin: 0 0 60px 0;">
+      {{ fdaiSections.effortlessTrialParticipation.subtitle }}
+    </p>
+
+    {% for step in fdaiSections.effortlessTrialParticipation.steps %}
+    <div style="background: rgba(255,255,255,0.1); border: 5px solid #000; padding: 40px; margin-bottom: 32px;">
+      <div style="background: #FFEB3B; color: #000; border: 3px solid #000; padding: 8px 16px; display: inline-block; font-weight: 900; font-size: 20px; margin-bottom: 20px;">
+        {{ step.number }}
+      </div>
+      <h3 style="font-size: 36px; font-weight: 900; margin: 0 0 20px 0;">{{ step.title }}</h3>
+      <p style="font-size: 20px; line-height: 1.5; margin: 0 0 20px 0;">{{ step.description }}</p>
+      {% if step.image %}
+      <img src="{{ step.image }}" alt="{{ step.title }}" style="max-width: 100%; border: 3px solid #000; box-shadow: 8px 8px 0 rgba(0,0,0,0.3);" />
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
