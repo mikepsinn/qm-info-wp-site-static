@@ -34,7 +34,29 @@
 	<![endif]-->
 
 	
-	<title>QuantiModo - Open Source Health Data Research Framework</title>
+	<title>{{ title | default("QuantiModo - Open Source Health Data Research Framework") }}</title>
+
+	<!-- SEO Meta Tags -->
+	<meta name="description" content="{{ description | default('Open source health data research framework with 50,000+ scientific studies analyzing life-tracking data to optimize health and happiness.') }}"/>
+	<link rel="canonical" href="{{ canonicalUrl | default('/') }}" />
+
+	<!-- Open Graph / Social Media -->
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="{{ title | default('QuantiModo - Open Source Health Data Research') }}" />
+	<meta property="og:description" content="{{ description | default('Open source framework with 50,000+ health research studies. Analyze life-tracking data to discover what improves your health and happiness.') }}" />
+	<meta property="og:url" content="{{ canonicalUrl | default('/') }}" />
+	<meta property="og:site_name" content="QuantiModo Health Research" />
+	<meta property="og:image" content="{{ ogImage | default('/wp-content/uploads/2017/03/Better-World-Through-Data-People.png') }}" />
+	<meta property="og:image:secure_url" content="{{ ogImage | default('/wp-content/uploads/2017/03/Better-World-Through-Data-People.png') }}" />
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:description" content="{{ description | default('Open source health research framework with 50,000+ studies analyzing life-tracking data to discover what improves your health and happiness.') }}" />
+	<meta name="twitter:title" content="{{ title | default('QuantiModo - Open Source Health Data Research') }}" />
+	<meta name="twitter:site" content="@quantimodo" />
+	<meta name="twitter:image" content="{{ ogImage | default('/wp-content/uploads/2017/03/Better-World-Through-Data-People.png') }}" />
+	<meta name="twitter:creator" content="@quantimodo" />
 <!-- Jetpack Site Verification Tags -->
 <meta name="google-site-verification" content="t2j9fjC_8bPF8oF3d4MwIWzhRfi9FBxV8jEoFo2e8e0" />
 <meta name="msvalidate.01" content="133C08077F683A8AEDC9730011D7ECD4" />
