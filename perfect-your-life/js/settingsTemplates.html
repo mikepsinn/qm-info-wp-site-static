@@ -58,7 +58,7 @@
                                   style="display:none; color:rgb(192, 86, 92)"></span></td>
                     </tr>
                     <tr>
-                        <td style="width:120px"><label for="password2">New Password 2&nbsp;&nbsp;&nbsp;</label></td>
+                        <td style="width:120px"><label for="password2">New Password 2   </label></td>
                         <td><input name="password2" id="password2" type="password"/></td>
                     </tr></tbody>
                 </table>
@@ -118,7 +118,7 @@
         {{#row}}
             <div class="span4"><input type="checkbox"
                                       onclick="App.sharingDialog.toggleSharedConnector('{{username}}','{{connectorName}}', this.checked);"
-                                      value="{{connectorName}}" {{#shared}}checked=checked{{/shared}}>&nbsp;{{prettyName}}</input> </div>
+                                      value="{{connectorName}}" {{#shared}}checked=checked{{/shared}}> {{prettyName}}</input> </div>
         {{/row}}
     </div>
     {{/connectors}}
