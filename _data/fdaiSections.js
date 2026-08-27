@@ -74,17 +74,17 @@ module.exports = {
       {
         "name": "Digital Health Apps",
         "description": "Connect to fitness and health tracking apps",
-        "image": "/fdai-homepage/images/import.gif"
+        "image": "/fdai-homepage/images/digital-health-apps.webp"
       },
       {
         "name": "Lab Results",
         "description": "Automatically import lab test results",
-        "image": "/fdai-homepage/images/import.gif"
+        "image": "/fdai-homepage/images/automated-lab-results.webp"
       },
       {
         "name": "Wearable Devices",
         "description": "Real-time data from wearables",
-        "image": "/fdai-homepage/images/import.gif"
+        "image": "/fdai-homepage/images/wearable-health-devices.webp"
       }
     ]
   },
