@@ -74,17 +74,17 @@ module.exports = {
       {
         "name": "Digital Health Apps",
         "description": "Connect to fitness and health tracking apps",
-        "image": "/fdai-homepage/images/import-from-apps.gif"
+        "image": "/fdai-homepage/images/import.gif"
       },
       {
         "name": "Lab Results",
         "description": "Automatically import lab test results",
-        "image": "/fdai-homepage/images/import-from-apps.gif"
+        "image": "/fdai-homepage/images/import.gif"
       },
       {
         "name": "Wearable Devices",
         "description": "Real-time data from wearables",
-        "image": "/fdai-homepage/images/import-from-apps.gif"
+        "image": "/fdai-homepage/images/import.gif"
       }
     ]
   },
@@ -139,7 +139,7 @@ module.exports = {
         "number": "3",
         "title": "Data Collection",
         "description": "The FDAi should automatically schedule all the tests and collect all the data to determine the safety and efficacy of the treatment.",
-        "image": "/fdai-homepage/images/import-from-apps.gif"
+        "image": "/fdai-homepage/images/autonomous-lab-order.gif"
       },
       {
         "number": "4",
