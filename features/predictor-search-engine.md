@@ -20,7 +20,7 @@ Clinicians and those suffering from chronic conditions will have access to the p
 ## Visualizations
 
 - [Network Graph Demo](https://app.QuAnTiMo.Do/variables/Overall%20Mood)
-- [Study Cards in Ionic App Demo](https://web.QuAnTiMo.Do/dev/src/ionic/src/index.html#/app/predictors/Overall%20Mood)
+- [Study Cards in Ionic App Demo](https://app.dfda.earth/app/public/#/app/predictors/Overall%20Mood)
 - [Nutrition Facts Style Demo](https://app.QuAnTiMo.Do/variables/Overall%20Mood)
 - [Bar Chart Demo](https://app.QuAnTiMo.Do/variables/Overall%20Mood)
 - [Sankey Chart Demo](https://app.QuAnTiMo.Do/variables/Overall%20Mood)

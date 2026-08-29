@@ -15,8 +15,9 @@ foreach ($file in $htmlFiles) {
     # 1. Replace API Explorer URL
     $content = $content -replace 'https://app\.quantimo\.do/api/v2/account/api-explorer', 'https://docs.dfda.earth'
 
-    # 2. Replace Web App reminders-inbox URL with base app URL
-    $content = $content -replace 'https://app\.quantimo\.do/ionic/Modo/www/index\.html#/app/reminders-inbox', 'https://app.QuAnTiMo.Do/'
+    # 2. Replace legacy Ionic app prefixes while preserving the route after the hash
+    $content = $content -replace '(?i)https://app\.quantimo\.do/ionic/Modo/www/index\.html#', 'https://app.dfda.earth/app/public/#'
+    $content = $content -replace '(?i)https://web\.quantimo\.do/dev/src/ionic/src/index\.html#', 'https://app.dfda.earth/app/public/#'
 
     # 3. Replace embedded iframe with link to studies (handle both & and &amp;)
     $iframePattern1 = '<iframe src="https://app\.quantimo\.do/embeddable/\?plugin=search-relationships&outcome=Overall%20Mood&commonOrUser=common"[^>]*></iframe>'
@@ -37,6 +38,6 @@ Write-Host "URL replacements complete!" -ForegroundColor Green
 Write-Host ""
 Write-Host "Summary of changes:"
 Write-Host "- API Explorer to docs.dfda.earth"
-Write-Host "- Web App to app.QuAnTiMo.Do (base URL)"
+Write-Host "- Legacy Ionic app routes to app.dfda.earth/app/public"
 Write-Host "- Embedded iframe to studies.QuAnTiMo.Do button"
 Write-Host "- Developer Portal to builder.QuAnTiMo.Do"
